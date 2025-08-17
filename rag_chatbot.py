@@ -14,7 +14,7 @@ from langchain_community.chat_models import ChatOpenAI
 # Load environment variables from .env file
 load_dotenv()
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "GROG_API_KEY"
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 MODEL = 'llama-3.3-70b-versatile'
@@ -88,7 +88,7 @@ if vector_store is not None:
         with st.chat_message("user"):
             st.markdown(prompt)
 
-        client = Groq(api_key="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")
+        client = Groq(api_key="GROG_API_KEY")
         chat_completion = client.chat.completions.create(
             messages=[
                 {"role": m["role"], "content": m["content"]}
