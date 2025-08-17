@@ -15,7 +15,7 @@ from langchain_community.chat_models import ChatOpenAI
 # Load environment variables from .env file
 load_dotenv()
 
-os.environ["API_KEY"] = getpass.getpass("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")
+os.environ["API_KEY"] = "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"
 GROQ_API_KEY = os.getenv("API_KEY")
 
 MODEL = 'llama-3.3-70b-versatile'
