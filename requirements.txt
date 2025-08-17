@@ -1,5 +1,5 @@
 pypdf2==3.0.1
-dotenv
+python-dotenv
 langchain
 langchain-community
 langchain-text-splitter
