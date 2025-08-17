@@ -88,7 +88,7 @@ if vector_store is not None:
         with st.chat_message("user"):
             st.markdown(prompt)
 
-        client = Groq(api_key=GROQ_API_KEY)
+        client = Groq(api_key="GROQ_API_KEY")
         chat_completion = client.chat.completions.create(
             messages=[
                 {"role": m["role"], "content": m["content"]}
