@@ -1,4 +1,4 @@
---upgrade pip
+streamlit==1.24.0
 pypdf2
 dotenv
 langchain
