@@ -8,4 +8,4 @@ langchain-groq
 langchain_huggingface
 langchain_community
 sentence-transformers
-faiss-cpu
+faiss-gpu
