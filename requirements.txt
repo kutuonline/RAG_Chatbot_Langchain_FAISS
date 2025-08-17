@@ -1,3 +1,4 @@
+--upgrade pip
 pypdf2
 dotenv
 langchain
