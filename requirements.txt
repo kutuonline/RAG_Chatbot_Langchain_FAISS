@@ -6,6 +6,5 @@ openai
 tiktoken
 langchain-groq
 langchain_huggingface
-langchain_community
 sentence-transformers
-streamlit==0.75.0
+
