@@ -7,3 +7,4 @@ tiktoken
 langchain-groq
 langchain_huggingface
 langchain_community
+sentence-transformers
