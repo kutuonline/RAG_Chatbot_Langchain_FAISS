@@ -1,8 +1,6 @@
-streamlit
-pypdf2
+pypdf2==3.0.1
 dotenv
 langchain
 langchain-community
 langchain-text-splitter
-groq
 langchain-huggingface
