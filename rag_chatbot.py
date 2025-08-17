@@ -13,7 +13,7 @@ from langchain_community.chat_models import ChatOpenAI
 # Load environment variables from .env file
 load_dotenv(".env")
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "GROQ_API_KEY"
 GROQ_API_KEY = os.getenv('GROQ_API_KEY')
 
 MODEL = 'llama-3.3-70b-versatile'
