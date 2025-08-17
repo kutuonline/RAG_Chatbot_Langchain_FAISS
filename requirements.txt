@@ -1,5 +1,7 @@
-pip install --upgrade pip
 pypdf2
 dotenv
 langchain
+langchain-community
 langchain-text-splitter
+groq
+langchain-huggingface
