@@ -5,7 +5,10 @@ langchain
 openai
 tiktoken
 langchain-groq
-langchain_huggingface
+# langchain_huggingface
 sentence-transformers
 langchain-community
 faiss-cpu
+langchain-huggingface
+transformers
+huggingface_hub
