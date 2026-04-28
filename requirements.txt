@@ -11,3 +11,4 @@ faiss-cpu
 langchain-huggingface
 transformers
 huggingface_hub
+langchain-openai
