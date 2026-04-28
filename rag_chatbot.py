@@ -3,7 +3,8 @@ import dotenv
 import PyPDF2
 import streamlit as st
 from dotenv import load_dotenv
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+# from langchain.text_splitter import RecursiveCharacterTextSplitter <-- (this code has been obsolete) 
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_groq import ChatGroq
 from groq import Groq
 from langchain_huggingface import HuggingFaceEmbeddings
