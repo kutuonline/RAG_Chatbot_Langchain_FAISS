@@ -9,8 +9,7 @@ from langchain_groq import ChatGroq
 from groq import Groq
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
-# from langchain.chains.question_answering import load_qa_chain
-from langchain_community.chains.question_answering import load_qa_chain
+from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
 # Load environment variables from .env file
